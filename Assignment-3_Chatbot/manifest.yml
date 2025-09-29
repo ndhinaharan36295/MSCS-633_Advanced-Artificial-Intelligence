@@ -1,0 +1,23 @@
+project_name: Terminal Chatbot
+author: Nitish Dhinaharan
+
+files:
+  - chat_bot/terminal_chat.py
+  - requirements.txt
+  - README.md
+  - .gitignore
+
+dependencies:
+  python: 3.8.18
+  packages:
+    - Django==3.2
+    - ChatterBot==1.0.5
+    - chatterbot-corpus==1.2.0
+    - spaCy==2.3.7
+    - en_core_web_sm
+
+instructions:
+  - Install Python 3.8
+  - Create virtual environment
+  - pip install -r requirements.txt
+  - Run chatbot: python chat_bot/terminal_chat.py
